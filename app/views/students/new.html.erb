@@ -3,10 +3,10 @@
 <fieldset>
   <legend>Student Form</legend>
 <label>First Name:
-<%= text_field_tag :'student[first_name]', nil, id:'first_name'%>
+<%= text_field_tag :first_name, nil, id:'first_name'%>
 </label>
 <label>Last Name:
-<%= text_field_tag :'student[last_name]', nil, id:'last_name'%>
+<%= text_field_tag :last_name, nil, id:'last_name'%>
 </label>
 <%= submit_tag "Submit Student", id:'submit_student' %>
 </fieldset>
